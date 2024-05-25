@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Smythe and Inter google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Smythe&display=swap" rel="stylesheet">
+    <title>Resturant Order</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header">
+          <h1>Ido's Dinner</h1>
+          <h3>The best burgers and pizzas in town.</h3>
+        </div>
+      </header>
+      <main>
+        <ul>
+          <div class="items">
+            <li>
+              <div class="item">
+                <div class="item-no-btn">
+                  <div class="icon">🍕</div>
+                  <div class="item-desc">
+                    <h2>Pizza</h2>
+                    <p>peoperoni, mushroom, mozarella</p>
+                    <h3>$14</h3>
+                  </div>
+                </div>
+                <div class="add-btn-div">
+                <button class="add">+</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item">
+                <div class="item-no-btn">
+                  <div class="icon">🍔</div>
+                  <div class="item-desc">
+                    <h2>Hamburger</h2>
+                    <p>beef, cheese, lettuce</p>
+                    <h3>$12</h3>
+                  </div>
+                </div>
+                <div class="add-btn-div">
+                <button class="add">+</button>
+              </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+        <section>
+          <div class="wrapper">
+          <h2 class="order-header">Your order</h2>
+          <div class="item-sum">
+            <div class="item-sum-no-total">
+              <h2>Pizza</h2>
+              <p class="remove">remove</p>
+            </div>
+            <p>$14</p>
+          </div>
+          <div class="item-sum">
+            <div class="item-sum-no-total">
+              <h2>Hamburger</h2>
+              <p class="remove">remove</p>
+            </div>
+            <p>$12</p>
+          </div>
+          <div class="total-price">
+            <h2>Total price:</h2>
+            <p>$26</p>
+          </div>
+          </div>
+          <div class="complete-btn-div">
+            <button class="complete-btn">Complete order</button>
+          </div>
+        </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script src="index.js" type="module"></script>
+</html>
