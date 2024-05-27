@@ -20,60 +20,14 @@
       </header>
       <main>
         <ul>
-          <div class="items">
-            <li>
-              <div class="item">
-                <div class="item-no-btn">
-                  <div class="icon">🍕</div>
-                  <div class="item-desc">
-                    <h2>Pizza</h2>
-                    <p>peoperoni, mushroom, mozarella</p>
-                    <h3>$14</h3>
-                  </div>
-                </div>
-                <div class="add-btn-div">
-                <button class="add">+</button>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="item">
-                <div class="item-no-btn">
-                  <div class="icon">🍔</div>
-                  <div class="item-desc">
-                    <h2>Hamburger</h2>
-                    <p>beef, cheese, lettuce</p>
-                    <h3>$12</h3>
-                  </div>
-                </div>
-                <div class="add-btn-div">
-                <button class="add">+</button>
-              </div>
-              </div>
-            </li>
+          <div id="items" class="items">
           </div>
         </ul>
-        <section>
+        <section id="order-sum" class="order-sum">
           <div class="wrapper">
           <h2 class="order-header">Your order</h2>
-          <div class="item-sum">
-            <div class="item-sum-no-total">
-              <h2>Pizza</h2>
-              <p class="remove">remove</p>
-            </div>
-            <p>$14</p>
-          </div>
-          <div class="item-sum">
-            <div class="item-sum-no-total">
-              <h2>Hamburger</h2>
-              <p class="remove">remove</p>
-            </div>
-            <p>$12</p>
-          </div>
-          <div class="total-price">
-            <h2>Total price:</h2>
-            <p>$26</p>
-          </div>
+          <ul id="order-sum-ul">
+          </ul>
           </div>
           <div class="complete-btn-div">
             <button class="complete-btn">Complete order</button>

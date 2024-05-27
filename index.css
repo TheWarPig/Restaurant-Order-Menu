@@ -31,7 +31,6 @@ p{
 
 .header{
     padding: 30px 0 30px 0;
-    margin-top: 20px;
 }
 
 li{
@@ -76,7 +75,7 @@ li{
 
 .item-no-btn{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -96,7 +95,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .remove{
@@ -108,13 +107,15 @@ li{
 
 .order-header{
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .total-price{
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #393333;
+    margin-top: 15px;
+    padding: 5px 0;
 }
 
 .complete-btn-div{
@@ -131,4 +132,8 @@ li{
     height: 60px;
     border-radius: 3px;
     border: none;
+}
+
+.order-sum{
+    display: none;
 }
