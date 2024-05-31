@@ -5,22 +5,21 @@
 }
 
 body{
-    padding: 0 50px 0 50px;
-    margin: 0;
     font-family: "Smythe", system-ui, sans-serif;
-    position: relative;
-}
-
-main{
-    padding: 50px 25px;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 h1{
-    font-size: 39px;
+    font-size: 30px;
 }
 
 h2{
     font-size: 26px;
+}
+
+h3{
+    font-size: 15px;
 }
 
 p{
@@ -28,6 +27,8 @@ p{
 }
 
 .wrapper{
+    padding: 0 50px 0 50px;
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -35,10 +36,14 @@ p{
 }
 
 .header{
-    padding: 30px 0 30px 0;
+    padding: 30px 0 30px 20px;
     background-image: url('head-img.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;   
     color: white;
-    padding-left: 40px;
+    margin-bottom: 35px;
+    
 }
 
 li{
