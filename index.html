@@ -28,12 +28,26 @@
           <h2 class="order-header">Your order</h2>
           <ul id="order-sum-ul">
           </ul>
-          </div>
+          </d50px 50
           <div class="complete-btn-div">
-            <button class="complete-btn">Complete order</button>
+            <button id="complete-btn" class="complete-btn">Complete order</button>
           </div>
         </div>
         </section>
+        <div id="card-details" class="wrapper card-details-div">
+          <div class="card-details-header">
+            <h2>Enter card details</h2>
+            <div class="modal-close">
+              <button id="modal-close-btn" class="close">X</button>
+            </div>
+          </div>
+          <form id="card-details-form" class="card-details-form">
+            <input type="text" class="input" name="cardName" placeholder="Enter your name" required>
+            <input type="number" class="input" name="cardNumber" placeholder="Enter card number" required>
+            <input id="cvv-input" type="number" name="cardCVV" class="input" placeholder="CVV" required>
+            <button id="card-details-btn" class="complete-btn" type="submit">Pay</button>
+          </form>
+        </div>
       </main>
     </div>
   </body>
