@@ -167,7 +167,7 @@ li{
 }
 
 .card-details-div{
-    position: absolute;
+    position: fixed;
     top: 100px;
     left: 0;
     bottom: 0px;

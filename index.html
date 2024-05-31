@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <!-- Smythe and Inter google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Smythe&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Smythe&display=swap"
+      rel="stylesheet"
+    />
     <title>Resturant Order</title>
   </head>
   <body>
@@ -20,19 +23,18 @@
     <div class="wrapper">
       <main>
         <ul>
-          <div id="items" class="items">
-          </div>
+          <div id="items" class="items"></div>
         </ul>
         <section id="order-sum" class="order-sum">
-          <div class="wrapper">
-          <h2 class="order-header">Your order</h2>
-          <ul id="order-sum-ul">
-          </ul>
-          </d50px 50
-          <div class="complete-btn-div">
-            <button id="complete-btn" class="complete-btn">Complete order</button>
+          <div>
+            <h2 class="order-header">Your order</h2>
+            <ul id="order-sum-ul"></ul>
+            <div class="complete-btn-div">
+              <button id="complete-btn" class="complete-btn">
+                Complete order
+              </button>
+            </div>
           </div>
-        </div>
         </section>
         <div id="card-details" class="wrapper card-details-div">
           <div class="card-details-header">
@@ -42,10 +44,31 @@
             </div>
           </div>
           <form id="card-details-form" class="card-details-form">
-            <input type="text" class="input" name="cardName" placeholder="Enter your name" required>
-            <input type="number" class="input" name="cardNumber" placeholder="Enter card number" required>
-            <input id="cvv-input" type="number" name="cardCVV" class="input" placeholder="CVV" required>
-            <button id="card-details-btn" class="complete-btn" type="submit">Pay</button>
+            <input
+              type="text"
+              class="input"
+              name="cardName"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="number"
+              class="input"
+              name="cardNumber"
+              placeholder="Enter card number"
+              required
+            />
+            <input
+              id="cvv-input"
+              type="number"
+              name="cardCVV"
+              class="input"
+              placeholder="CVV"
+              required
+            />
+            <button id="card-details-btn" class="complete-btn" type="submit">
+              Pay
+            </button>
           </form>
         </div>
       </main>
